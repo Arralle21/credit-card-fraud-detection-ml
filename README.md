@@ -6,7 +6,7 @@ This project develops machine learning models to detect fraudulent credit card t
 **Submitted by:** Abdullahi Mohamed Jibril  
 **Institution:** Nexford University  
 **Date:** November 21, 2025  
-**Course:** Data Anlytics - Capstone Project
+**Course:** Data Analytics - Capstone Project
 
 ---
 
@@ -17,7 +17,9 @@ This project develops machine learning models to detect fraudulent credit card t
 - **Class Distribution:** 
   - Normal: 283,253 (99.83%)
   - Fraud: 473 (0.17%)
-- **Source:** Kaggle Credit Card Fraud Detection Dataset
+- **Data Sources:**
+  - Original Dataset: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+  - Processed Dataset: [Google Drive](https://drive.google.com/file/d/1CZiBQf-M2I5D1luaom_rmwgt7c22o47E/view?usp=drive_link)
 
 ---
 
@@ -29,15 +31,12 @@ credit-card-fraud-detection-ml/
 │   ├── 01_exploratory_data_analysis.ipynb
 │   └── 02_model_development.ipynb
 │
-├── data/
-│   ├── creditcard.csv
-│   └── creditcard_processed.csv
-│
 ├── presentation/
 │   └── Milestone1_Presentation.pptx
 │
 └── README.md
 ```
+
 
 ---
 
@@ -116,24 +115,34 @@ Two classification models were developed and evaluated:
 ## 📁 Files Description
 - `01_exploratory_data_analysis.ipynb`: Complete EDA with visualizations
 - `02_model_development.ipynb`: Model training, evaluation, and comparison
-- `creditcard.csv`: Original dataset
-- `creditcard_processed.csv`: Cleaned and preprocessed dataset
-- `Milestone1_Presentation.pptx`: EDA presentation
+- `Milestone1_Presentation.pptx`: EDA presentation slides
+
+**Data Files (External Links):**
+- Original Dataset: [Download from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Processed Dataset: [Download from Google Drive](https://drive.google.com/file/d/1CZiBQf-M2I5D1luaom_rmwgt7c22o47E/view?usp=drive_link)
 
 ---
 
 ## 🔄 How to Run
+
+### Step 1: Clone Repository
 ```bash
-# Clone repository
 git clone https://github.com/yourusername/credit-card-fraud-detection-ml.git
-
-# Navigate to directory
 cd credit-card-fraud-detection-ml
+```
 
-# Install dependencies
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
+### Step 2: Download Datasets
+- Download the original dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Or use the processed dataset from [Google Drive](https://drive.google.com/file/d/1CZiBQf-M2I5D1luaom_rmwgt7c22o47E/view?usp=drive_link)
+- Place the CSV file in the project root directory
 
-# Run notebooks in order
+### Step 3: Install Dependencies
+```bash
+pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn jupyter
+```
+
+### Step 4: Run Notebooks
+```bash
 jupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 jupyter notebook notebooks/02_model_development.ipynb
 ```
@@ -143,7 +152,7 @@ jupyter notebook notebooks/02_model_development.ipynb
 ## 📧 Contact
 **Abdullahi Mohamed Jibril**  
 Nexford University  
-Email: [abdulaahimohamed65@gmail.com]
+Email: abdulaahimohamed65@gmail.com
 
 ---
 
@@ -156,3 +165,7 @@ This project is submitted as part of academic coursework at Nexford University.
 - Nexford University - Data Analytics Program
 - Kaggle - Credit Card Fraud Detection Dataset
 - scikit-learn and imbalanced-learn communities
+
+---
+
+⭐ **If you find this project useful, please consider giving it a star!**
